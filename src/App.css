@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
+body {
+    font-family: var(--font-roboto);
+    background-color: #eaeff3;
+    background-image: url("http://c.files.bbci.co.uk/13D7D/production/_106477218_lightpollutionlarge.jpg");
+    height: auto; 
+    /* max-width: 100%; */
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
+
+header h1{
+    color: #eaeff3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(123, 121, 95);
   }
-  to {
-    transform: rotate(360deg);
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
   }
-}
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #0468aa;
+    color: white;
+  }
+
+  .scroll-left {
+    overflow-y: scroll;
+    flex: 1;
+  
+    align-items: center;
+    height: 86vh;
+  
+  }
+
+  .plot img {
+    width: 155px;
+    height: 155px;
+    cursor: pointer;
+    border-radius: 10%;
+    -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+  }
+
+
+  .center {
+    flex: 6;
+    background: rgba(249, 211, 180, 0)
+  }
+
+  .center img {
+    width: 495px;
+    height: 495px;
+    border-radius: 10%;
+    position: relative;
+  }

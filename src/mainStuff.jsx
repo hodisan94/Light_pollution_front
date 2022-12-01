@@ -10,7 +10,7 @@ const mainStuff = ({plot_url}) => {
                 <td>
             <div className="plotFull-left" >
                 <div>
-                    <img src={plot_url}/>
+                    <img src='https://d2mvzyuse3lwjc.cloudfront.net/doc/en/Tutorial/images/Transparent_Parametric_Surfaces_combined_with_Scatter_Plot/Transparent_Parametric_Surfaces_06.png?v=47973'/>
                 </div>
 
 

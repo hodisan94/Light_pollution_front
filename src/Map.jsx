@@ -68,7 +68,9 @@ const Map = () =>{
         {measures_data.map((location) =>(
           <Marker position={[location.Latitude,location.Longitude]}>
             <Popup>
-              {'Value: ' + location.m_value +  ', Date: ' + location.m_date + ', Elevation: ' + location.Elevation + ', Cloud Cover: ' + location.CloudCover}
+              <p><b>Value:  {location.m_value}<br></br>  Date:   {location.m_date}<br></br>  Elevation: {location.Elevation}<br></br> Cloud Cover: {location.CloudCover}</b></p>
+
+              {/* {"Value: " + location.m_value +  ", Date: " + location.m_date + '<br>, Elevation: ' + location.Elevation + '<br>, Cloud Cover: ' + location.CloudCover} */}
             </Popup>
           </Marker>
         ))};

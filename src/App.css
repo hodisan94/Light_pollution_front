@@ -1,10 +1,3 @@
-* {
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-
-
 body {
   font-family: var(--font-roboto);
   background-color: #212426;
@@ -13,6 +6,9 @@ body {
   background-position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.map {
+  margin-left: 1%;
 }
 
 .topnav {
@@ -39,109 +35,7 @@ body {
   color: white;
 }
 
-
-.mainApp {
-  display: flex;
-  flex-direction: row;
-}
-
-h1 {
-  padding: 2rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  align-items:  center;
-  font-size: 3rem;
-  letter-spacing: 0.9px;
-  background: linear-gradient(
-    90deg,
-    rgb(34, 33, 33) 70%,
-    rgba(223, 130, 54, 0) 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  width: fit-content;
-}
-
-.bird img {
-  width: 145px;
-  height: 145px;
-  cursor: pointer;
-  border-radius: 50%;
-  -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.bird img:hover {
-  -webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
-.bird h3 {
-  color: #342a2a;
-}
-
-
-.scroll-left {
-  overflow-y: scroll;
-  flex: 1;
-
-  align-items: baseline;
-  /* background: rgb(142, 191, 234); */
-  height: 86vh;
-
-}
-
-
-button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 24px 48px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  background-color: rgb(175, 230, 224); 
-  color: black; 
-  border: 2px solid #4CAF50;
-  border-radius: 12px;
-}
-
-button:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.center {
-  flex: 6;
-  background: rgba(249, 211, 180, 0)
-}
-.center img {
-  width: 495px;
-  height: 495px;
-  border-radius: 10%;
-  position: relative;
-}
-
-.empty {
-  color: rgba(249, 211, 180, 1);
+.home p {
   margin-left: 5%;
-}
-
-.empty h2{
-  color: rgb(19, 17, 16);
-  font-size: 42px;
-
-}
-
-.empty h3{
-  color: #342a2a;
+  color: #f2f2f2;
 }

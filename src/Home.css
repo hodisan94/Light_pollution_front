@@ -1,5 +1,7 @@
 
 h1 {
+    font: italic 2.2em "Fira Sans", serif;
+    /* font-size: large; */
     margin-left: 5%;
-    color: rgb(248, 0, 0);
+    color: rgb(215, 248, 0);
 }
